@@ -1,6 +1,6 @@
 :root {
-    --main-font: 'Roboto' . sans-serif;
-    --secondary-font: 'Raleway';
+    --main-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
 
     /*Text colors */
     --accent-color: #2196F3;
@@ -17,8 +17,52 @@ body {
     background-color: var(--white-color);
     color: var(--main-text-color);
     font-family: var(--main-font);
-    font-size: normal;
     letter-spacing: 0.03em;
-
-
 }
+.link {
+    text-decoration: none;
+    color: currentColor;
+}
+.link:hover,
+.link:focus {
+    color: var(--accent-color);
+}
+.list {
+    list-style: none;
+}
+
+/* ---Студия---*/
+
+.services-title,
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+}
+/* Логотип */
+.logo {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+/* Секция Герой */
+.hero-btn:hover,
+.hero-btn:focus {
+    color: #ffffff;
+    background-color: var(--hero-btn);
+}
+/* Чем мы занимаемся */
+/* Наша команда */
+/* Подвал */
+
+/* ---Портфолио--- */
+
+/* Верхняя линия */
+
+/* filters */
