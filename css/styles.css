@@ -1,0 +1,24 @@
+:root {
+    --main-font: 'Roboto' . sans-serif;
+    --secondary-font: 'Raleway';
+
+    /*Text colors */
+    --accent-color: #2196F3;
+    --main-text-color: #757575;
+    --secondary-text-color: #212121;
+    --white-color: #ffffff;
+
+    /*Background colors */
+    --main-bg-color: #ffffff;
+    --secondary-bg-color: #f5f4fa;
+}
+
+body {
+    background-color: var(--white-color);
+    color: var(--main-text-color);
+    font-family: var(--main-font);
+    font-size: normal;
+    letter-spacing: 0.03em;
+
+
+}
